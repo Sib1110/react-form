@@ -3,7 +3,7 @@ import subprocess
 from smolagents import CodeAgent, OpenAIServerModel, tool
 
 MAIN   = "https://wins9ctf.aws-king.co.kr/"
-TARGET = "http://wins9ctf.aws-king.co.kr:32772"
+TARGET = "http://wins9ctf.aws-king.co.kr:32773"
 FLAG_RE = r"(?:FLAG|flag)\{[^}]{1,100}\}"
 
 model = OpenAIServerModel(
